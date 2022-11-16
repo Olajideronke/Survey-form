@@ -1,0 +1,50 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: aquamarine;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+h1{
+    margin: 20px auto;
+}
+
+form{
+    text-align: left;
+    background-color: white;
+    width: 35%;
+    margin: auto;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+label{
+
+    display: block;
+    padding: 10px 0 2px 0;
+}
+
+#name, #email, #age, textarea {
+    width: 100%;
+    padding: 10px 0;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+
+    outline: none;
+    border: none;
+    background-color: aquamarine;
+font-size: 20px;
+font-weight: 600;
+    margin: auto;
+}
+button:hover{
+    background-color: rgb(117, 226, 240);
+    color: black;
+    cursor: pointer;
+}
